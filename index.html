@@ -1,22 +1,26 @@
-<!doctype html>
+<!DOCTYPE html> 
 <html>
 <head>
 <meta charset="utf-8">
-<title>Advertencias del equipo</title>
+<title>App9 Geolocalizar</title>
 <!--grupo CSS-->
 <link rel="stylesheet" href="css/tema-app9.min.css"/>
 <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
-<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css">
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
 
 <!--grupo JavaScript-->
-<script src="js/acciones.js" type="text/javascript"></script>
 <script src="js/jquery-1.11.2.min.js"></script>
 <script src="js/jquery.mobile-1.4.5.min.js"></script>
-<script src="phonegap.js"></script>
+<script src="js/acciones.js" type="text/javascript"></script>
 
-</head>
-<body>
- <div data-role="header" data-position="fixed" data-tap-toggle="false" data-theme="b">
+<script src="phonegap.js"></script><!-- necesario*/ -->
+
+</head> 
+
+<body> 
+ <div data-role="page" id="principal" data-theme="b">
+
+  <div data-role="header" data-position="fixed" data-tap-toggle="false">
    <h1>Geolocalización</h1>
   </div>
   
@@ -35,15 +39,12 @@
   <div>Timestamp:<span id="timestamp"></span></div>
   </div>
  </div>
-   
-   
-   <div data-role="footer" align="center" data-theme="b" data-position="fixed">
-   <h4>	Aplicacion  Nueve GPS</h4>
-    <h4>Jose Alberto Rocha Rincon</h4>
-     <img src="res/android/mdpi.png" width="56" height="46">
-     </div>
-     </div>
-     
+<div data-role="footer" align="center" data-theme="b" data-position="fixed">
+ <h4>Jose Alberto Rocha Rincon</h4>
+  <h5>App9 Gps</h5>
+  <img src="res/android/mdpi.png" width="56" height="46">
+  </div>
+ </div>
 </body>
 </html>
       

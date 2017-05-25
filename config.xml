@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 
- <widget xmlns = "http://www.w3.org/ns/widgets"
-  xmlns:gap = "http://phonegap.com/ns/1.0"
-  id ="com.phonegap.example9"
-  version = "1.0.0">
-  
-  <name>app9 Geolocalizacion</name>
-  
-  <description>
-   Muestra la ubicacion del dispositivo de acuerdo al gps
-   </description>
-   
-   <author href="https://build.phonegap.com" email="albertorocharincon08@gmail.com">
-     Jose Alberto Rocha Rincon 4F
-	</author>
-	
+<widget xmlns ="http://www.worg/ns/widgets"
+xmlns:gap ="http://phonegap.com/ns/1.0"
+id ="com.phonegap.example9"
+version ="1.0.0">
+
+<name>app9 Geolocalizacion</name>
+
+<description>
+Muestra la ubicacion del dispositivo deacuerdo al GPS
+</description>
+
+<author href="http://build.phonegap.com" email="albertorocharinocn08l@gmail.com">
+Jose Alberto Rocha Rincon 4F
+</author>
+
 <!-- Perzonaliza la aplicacion y plataforma -->
   <preference name="orientation" value="default"/>
   <!-- <preference name="orientation" value="portrait"/>
@@ -41,6 +41,3 @@
  <icon src="res/android/mdpi.png"/>
  
  </widget>
-	
-	
-	
